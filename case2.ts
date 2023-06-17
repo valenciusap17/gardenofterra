@@ -52,4 +52,4 @@ function calculateCommentAmount(comments: IComment[]): number {
   return result;
 }
 
-console.log(calculateCommentAmount(comments));
+console.log("Total komentar: " + calculateCommentAmount(comments) + " komentar");
