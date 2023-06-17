@@ -63,8 +63,8 @@ const Reviews: FC = () => {
         </div>
       </div>
       <div className="pt-4 flex justify-center gap-10 mt-5">
-        <AiOutlineArrowLeft size={40} onClick={handleArrawLeft} />
-        <AiOutlineArrowRight size={40} onClick={handleArrowRight} />
+        <AiOutlineArrowLeft size={40} onClick={handleArrawLeft} className="cursor-pointer"/>
+        <AiOutlineArrowRight size={40} onClick={handleArrowRight} className="cursor-pointer"/>
       </div>
     </>
   );

@@ -24,17 +24,17 @@ const VisionValues: FC = () => {
                 nurturing a more sustainable, green environment.
               </div>
             </div>
-            <div className=" rounded-xl my-5 mx-5 lg:px-5 lg:py-3 px-3 py-2 bg-black w-fit text-white">
+            <div className=" rounded-xl my-5 mx-5 lg:px-5 lg:py-3 px-3 py-2 bg-black w-fit text-white cursor-pointer">
               Join with us!
             </div>
             <div className=" flex gap-3 mx-5 items-center">
-              <div className="w-fit bg-[#f5f5bc] lg:px-3 lg:py-2 px-2 py-1 rounded-lg font-bold">
+              <div className="w-fit bg-[#f5f5bc] lg:px-3 lg:py-2 px-2 py-1 rounded-lg font-bold cursor-pointer">
                 Facebook
               </div>
-              <div className="w-fit bg-[#d8ecc4] lg:px-3 lg:py-2 px-2 py-1 rounded-lg font-bold">
+              <div className="w-fit bg-[#d8ecc4] lg:px-3 lg:py-2 px-2 py-1 rounded-lg font-bold cursor-pointer">
                 Instagram
               </div>
-              <div className="w-fit bg-[#ffdcb4] lg:px-3 lg:py-2 px-2 py-1 rounded-lg font-bold ">
+              <div className="w-fit bg-[#ffdcb4] lg:px-3 lg:py-2 px-2 py-1 rounded-lg font-bold cursor-pointer">
                 Whatsapp
               </div>
             </div>

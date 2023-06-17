@@ -3,8 +3,6 @@ import Navbar from "./components/Navbar";
 import ShopNow from "./mainPageSection/ShopNow";
 import AboutUs from "./mainPageSection/AboutUs";
 import VisionValues from "./mainPageSection/VisionValues";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import Reviews from "./mainPageSection/Reviews";
 import Footer from "./mainPageSection/Footer";
 
