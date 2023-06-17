@@ -3,7 +3,7 @@ type IComment = {
   commentContent: string;
   replies?: IComment[];
 };
-const commentsData: IComment[] = [
+const comments: IComment[] = [
   {
     commentId: 1,
     commentContent: "Hai",
@@ -40,16 +40,16 @@ const commentsData: IComment[] = [
   },
 ];
 
-function calculateCommentAmount(commentsData: IComment[]): number {
-  const lengthComment: number = commentsData.length;
+function calculateCommentAmount(comments: IComment[]): number {
+  const lengthComment: number = comments.length;
   let result = 0;
   result += lengthComment;
   for (let i = 0; i < lengthComment; i++) {
-    if (commentsData[i].replies) {
-      result += calculateCommentAmount(commentsData[i].replies ?? []);
+    if (comments[i].replies) {
+      result += calculateCommentAmount(comments[i].replies ?? []);
     }
   }
   return result;
 }
 
-console.log(calculateCommentAmount(commentsData));
+console.log(calculateCommentAmount(comments));
